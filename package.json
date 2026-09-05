@@ -24,43 +24,50 @@
       "name": "generate-uuid",
       "title": "Generate UUID",
       "description": "Generate UUID v4/v7 and variants.",
-      "mode": "view"
+      "mode": "view",
+      "keywords": ["uuid", "guid", "v4", "v7", "id"]
     },
     {
       "name": "base64",
       "title": "Base64 Encode / Decode",
       "description": "Encode or decode Base64 text.",
-      "mode": "view"
+      "mode": "view",
+      "keywords": ["base64", "b64", "encode", "decode"]
     },
     {
       "name": "url-codec",
       "title": "URL Encode / Decode",
       "description": "Percent-encode or decode URL components.",
-      "mode": "view"
+      "mode": "view",
+      "keywords": ["url", "uri", "percent", "encode", "decode"]
     },
     {
       "name": "json-format",
       "title": "Format JSON",
       "description": "Pretty-print or minify JSON.",
-      "mode": "view"
+      "mode": "view",
+      "keywords": ["json", "format", "prettify", "minify", "beautify"]
     },
     {
       "name": "hash",
       "title": "Hash Text",
       "description": "MD5/SHA-1/SHA-256/SHA-512 hex digest.",
-      "mode": "view"
+      "mode": "view",
+      "keywords": ["hash", "md5", "sha", "sha256", "sha512", "digest", "checksum"]
     },
     {
       "name": "timestamp",
       "title": "Unix Timestamp Converter",
       "description": "Convert between Unix time and human dates.",
-      "mode": "view"
+      "mode": "view",
+      "keywords": ["timestamp", "unix", "epoch", "date", "time"]
     },
     {
       "name": "jwt-decode",
       "title": "Decode JWT",
       "description": "Decode JWT header and payload (no verify).",
-      "mode": "view"
+      "mode": "view",
+      "keywords": ["jwt", "token", "decode", "jose", "bearer"]
     }
   ]
 }
