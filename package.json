@@ -1,0 +1,66 @@
+{
+  "name": "gtoolbox",
+  "title": "Grayson Toolbox",
+  "description": "Common dev tools: UUIDs, encoders, hashes, converters.",
+  "icon": "icon.png",
+  "author": "gray",
+  "license": "MIT",
+  "categories": ["Developer Tools"],
+  "scripts": {
+    "dev": "vici develop",
+    "build": "vici build",
+    "lint": "vici lint"
+  },
+  "dependencies": {
+    "@vicinae/api": "0.28.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.17",
+    "react": "19.1.1",
+    "typescript": "5.9.2"
+  },
+  "commands": [
+    {
+      "name": "generate-uuid",
+      "title": "Generate UUID",
+      "description": "Generate UUID v4/v7 and variants.",
+      "mode": "view"
+    },
+    {
+      "name": "base64",
+      "title": "Base64 Encode / Decode",
+      "description": "Encode or decode Base64 text.",
+      "mode": "view"
+    },
+    {
+      "name": "url-codec",
+      "title": "URL Encode / Decode",
+      "description": "Percent-encode or decode URL components.",
+      "mode": "view"
+    },
+    {
+      "name": "json-format",
+      "title": "Format JSON",
+      "description": "Pretty-print or minify JSON.",
+      "mode": "view"
+    },
+    {
+      "name": "hash",
+      "title": "Hash Text",
+      "description": "MD5/SHA-1/SHA-256/SHA-512 hex digest.",
+      "mode": "view"
+    },
+    {
+      "name": "timestamp",
+      "title": "Unix Timestamp Converter",
+      "description": "Convert between Unix time and human dates.",
+      "mode": "view"
+    },
+    {
+      "name": "jwt-decode",
+      "title": "Decode JWT",
+      "description": "Decode JWT header and payload (no verify).",
+      "mode": "view"
+    }
+  ]
+}
