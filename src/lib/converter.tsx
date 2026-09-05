@@ -58,6 +58,10 @@ export function Converter({
         onChange={setInput}
       />
       <Form.TextArea
+        // Remount on change: Vicinae gates controlled `value` updates behind an
+        // eventCount that only advances on the field's own onChange. A passive
+        // output field never gets one, so keying by content forces a fresh mount.
+        key={output}
         id="output"
         title="Output"
         value={output}
