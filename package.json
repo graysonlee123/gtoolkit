@@ -75,6 +75,13 @@
       "description": "Generate placeholder text by paragraphs, sentences, or words.",
       "mode": "view",
       "keywords": ["lorem", "ipsum", "placeholder", "filler", "dummy", "text"]
+    },
+    {
+      "name": "case-convert",
+      "title": "Convert Case",
+      "description": "camelCase, snake_case, kebab, PascalCase, CONSTANT, Title, etc.",
+      "mode": "view",
+      "keywords": ["case", "camel", "snake", "kebab", "pascal", "constant", "title", "slug"]
     }
   ]
 }

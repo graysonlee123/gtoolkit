@@ -51,6 +51,11 @@ declare namespace Preferences {
 	export type Lorem = ExtensionPreferences & {
 		
 	}
+
+	/** Command: Convert Case */
+	export type CaseConvert = ExtensionPreferences & {
+		
+	}
 }
 
 declare namespace Arguments {
@@ -91,6 +96,11 @@ declare namespace Arguments {
 
 	/** Command: Lorem Ipsum */
 	export type Lorem = {
+		
+	}
+
+	/** Command: Convert Case */
+	export type CaseConvert = {
 		
 	}
 }
