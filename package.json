@@ -82,6 +82,13 @@
       "description": "camelCase, snake_case, kebab, PascalCase, CONSTANT, Title, etc.",
       "mode": "view",
       "keywords": ["case", "camel", "snake", "kebab", "pascal", "constant", "title", "slug"]
+    },
+    {
+      "name": "slugify",
+      "title": "Slugify",
+      "description": "Turn text into a URL slug (accents stripped).",
+      "mode": "view",
+      "keywords": ["slug", "slugify", "url", "permalink", "handle"]
     }
   ]
 }

@@ -56,6 +56,11 @@ declare namespace Preferences {
 	export type CaseConvert = ExtensionPreferences & {
 		
 	}
+
+	/** Command: Slugify */
+	export type Slugify = ExtensionPreferences & {
+		
+	}
 }
 
 declare namespace Arguments {
@@ -101,6 +106,11 @@ declare namespace Arguments {
 
 	/** Command: Convert Case */
 	export type CaseConvert = {
+		
+	}
+
+	/** Command: Slugify */
+	export type Slugify = {
 		
 	}
 }
