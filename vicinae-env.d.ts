@@ -66,6 +66,11 @@ declare namespace Preferences {
 	export type HexDecBin = ExtensionPreferences & {
 		
 	}
+
+	/** Command: Text Stats */
+	export type TextStats = ExtensionPreferences & {
+		
+	}
 }
 
 declare namespace Arguments {
@@ -121,6 +126,11 @@ declare namespace Arguments {
 
 	/** Command: Number Base Converter */
 	export type HexDecBin = {
+		
+	}
+
+	/** Command: Text Stats */
+	export type TextStats = {
 		
 	}
 }
