@@ -1,6 +1,6 @@
 # Grayson Toolbox
 
-Vicinae extension — common dev tools as launcher commands.
+Vicinae extension including common dev tools as launcher commands. Tailored to my needs.
 
 ## Commands
 
@@ -20,7 +20,7 @@ Vicinae extension — common dev tools as launcher commands.
 | Text Stats | form | Chars (code points), no-spaces, words, lines, sentences, UTF-8 bytes. |
 | HTTP Status Codes | list | Search by code or name; class-colored, detail pane, MDN links. |
 
-All logic is local — no network, no auth (HTTP Status only links out to MDN). Runs on Node (uses `crypto`, `Buffer`).
+All logic is local. No network, no auth (HTTP Status only links out to MDN). Runs on Node (uses `crypto`, `Buffer`).
 
 ## Develop
 
