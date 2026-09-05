@@ -71,6 +71,11 @@ declare namespace Preferences {
 	export type TextStats = ExtensionPreferences & {
 		
 	}
+
+	/** Command: HTTP Status Codes */
+	export type HttpStatus = ExtensionPreferences & {
+		
+	}
 }
 
 declare namespace Arguments {
@@ -131,6 +136,11 @@ declare namespace Arguments {
 
 	/** Command: Text Stats */
 	export type TextStats = {
+		
+	}
+
+	/** Command: HTTP Status Codes */
+	export type HttpStatus = {
 		
 	}
 }

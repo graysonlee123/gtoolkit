@@ -190,6 +190,21 @@
         "length",
         "stats"
       ]
+    },
+    {
+      "name": "http-status",
+      "title": "HTTP Status Codes",
+      "description": "Look up HTTP status codes by number or name.",
+      "mode": "view",
+      "keywords": [
+        "http",
+        "status",
+        "code",
+        "404",
+        "500",
+        "response",
+        "error"
+      ]
     }
   ]
 }
