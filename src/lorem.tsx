@@ -93,9 +93,9 @@ export default function Command() {
         value={classic}
         onChange={setClassic}
       />
-      {/* key={output} forces remount so the passive field picks up new value;
-          Vicinae only applies controlled `value` when the field's own eventCount advances. */}
-      <Form.TextArea key={output} id="output" title="Output" value={output} />
+      {/* Display-only: TextArea can't be updated programmatically in Vicinae
+          (controlled value gated by eventCount). Form.Description has no gate. */}
+      <Form.Description title="Output" text={output || " "} />
     </Form>
   );
 }

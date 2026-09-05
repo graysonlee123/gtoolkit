@@ -57,15 +57,12 @@ export function Converter({
         value={input}
         onChange={setInput}
       />
-      <Form.TextArea
-        // Remount on change: Vicinae gates controlled `value` updates behind an
-        // eventCount that only advances on the field's own onChange. A passive
-        // output field never gets one, so keying by content forces a fresh mount.
-        key={output}
-        id="output"
+      {/* Output is display-only. A TextArea can't be updated programmatically —
+          Vicinae gates controlled `value` behind an eventCount that only advances
+          on the field's own onChange. Form.Description has no such gate. */}
+      <Form.Description
         title="Output"
-        value={output}
-        error={input ? error : undefined}
+        text={input && error ? `⚠ ${error}` : output || " "}
       />
     </Form>
   );
