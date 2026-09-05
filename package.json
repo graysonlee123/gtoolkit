@@ -5,7 +5,9 @@
   "icon": "icon.png",
   "author": "gray",
   "license": "MIT",
-  "categories": ["Developer Tools"],
+  "categories": [
+    "Developer Tools"
+  ],
   "scripts": {
     "dev": "vici develop",
     "build": "vici build",
@@ -15,6 +17,7 @@
     "@vicinae/api": "0.28.1"
   },
   "devDependencies": {
+    "@types/node": "^24.13.3",
     "@types/react": "19.1.17",
     "react": "19.1.1",
     "typescript": "5.9.2"
@@ -25,77 +28,152 @@
       "title": "Generate UUID",
       "description": "Generate UUID v4/v7 and variants.",
       "mode": "view",
-      "keywords": ["uuid", "guid", "v4", "v7", "id"]
+      "keywords": [
+        "uuid",
+        "guid",
+        "v4",
+        "v7",
+        "id"
+      ]
     },
     {
       "name": "base64",
       "title": "Base64 Encode / Decode",
       "description": "Encode or decode Base64 text.",
       "mode": "view",
-      "keywords": ["base64", "b64", "encode", "decode"]
+      "keywords": [
+        "base64",
+        "b64",
+        "encode",
+        "decode"
+      ]
     },
     {
       "name": "url-codec",
       "title": "URL Encode / Decode",
       "description": "Percent-encode or decode URL components.",
       "mode": "view",
-      "keywords": ["url", "uri", "percent", "encode", "decode"]
+      "keywords": [
+        "url",
+        "uri",
+        "percent",
+        "encode",
+        "decode"
+      ]
     },
     {
       "name": "json-format",
       "title": "Format JSON",
       "description": "Pretty-print or minify JSON.",
       "mode": "view",
-      "keywords": ["json", "format", "prettify", "minify", "beautify"]
+      "keywords": [
+        "json",
+        "format",
+        "prettify",
+        "minify",
+        "beautify"
+      ]
     },
     {
       "name": "hash",
       "title": "Hash Text",
       "description": "MD5/SHA-1/SHA-256/SHA-512 hex digest.",
       "mode": "view",
-      "keywords": ["hash", "md5", "sha", "sha256", "sha512", "digest", "checksum"]
+      "keywords": [
+        "hash",
+        "md5",
+        "sha",
+        "sha256",
+        "sha512",
+        "digest",
+        "checksum"
+      ]
     },
     {
       "name": "timestamp",
       "title": "Unix Timestamp Converter",
       "description": "Convert between Unix time and human dates.",
       "mode": "view",
-      "keywords": ["timestamp", "unix", "epoch", "date", "time"]
+      "keywords": [
+        "timestamp",
+        "unix",
+        "epoch",
+        "date",
+        "time"
+      ]
     },
     {
       "name": "jwt-decode",
       "title": "Decode JWT",
       "description": "Decode JWT header and payload (no verify).",
       "mode": "view",
-      "keywords": ["jwt", "token", "decode", "jose", "bearer"]
+      "keywords": [
+        "jwt",
+        "token",
+        "decode",
+        "jose",
+        "bearer"
+      ]
     },
     {
       "name": "lorem",
       "title": "Lorem Ipsum",
       "description": "Generate placeholder text by paragraphs, sentences, or words.",
       "mode": "view",
-      "keywords": ["lorem", "ipsum", "placeholder", "filler", "dummy", "text"]
+      "keywords": [
+        "lorem",
+        "ipsum",
+        "placeholder",
+        "filler",
+        "dummy",
+        "text"
+      ]
     },
     {
       "name": "case-convert",
       "title": "Convert Case",
       "description": "camelCase, snake_case, kebab, PascalCase, CONSTANT, Title, etc.",
       "mode": "view",
-      "keywords": ["case", "camel", "snake", "kebab", "pascal", "constant", "title", "slug"]
+      "keywords": [
+        "case",
+        "camel",
+        "snake",
+        "kebab",
+        "pascal",
+        "constant",
+        "title",
+        "slug"
+      ]
     },
     {
       "name": "slugify",
       "title": "Slugify",
       "description": "Turn text into a URL slug (accents stripped).",
       "mode": "view",
-      "keywords": ["slug", "slugify", "url", "permalink", "handle"]
+      "keywords": [
+        "slug",
+        "slugify",
+        "url",
+        "permalink",
+        "handle"
+      ]
     },
     {
       "name": "hex-dec-bin",
       "title": "Number Base Converter",
       "description": "Convert between decimal, hex, octal, and binary.",
       "mode": "view",
-      "keywords": ["hex", "dec", "bin", "oct", "binary", "hexadecimal", "base", "radix", "number"]
+      "keywords": [
+        "hex",
+        "dec",
+        "bin",
+        "oct",
+        "binary",
+        "hexadecimal",
+        "base",
+        "radix",
+        "number"
+      ]
     }
   ]
 }
