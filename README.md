@@ -13,8 +13,14 @@ Vicinae extension — common dev tools as launcher commands.
 | Hash Text | form | MD5 / SHA-1 / SHA-256 / SHA-512 hex. |
 | Unix Timestamp Converter | form | Unix ↔ date, both s and ms. |
 | Decode JWT | form | Header + payload (no signature verify) + exp/iat/nbf notes. |
+| Lorem Ipsum | form | Paragraphs / sentences / words, count, optional classic opener, regenerate. |
+| Convert Case | form | camel / Pascal / snake / CONSTANT / kebab / Title / Sentence / lower / UPPER. |
+| Slugify | form | URL slug; NFKD accent strip, hyphen or underscore. |
+| Number Base Converter | form | Dec / hex / octal / binary; auto-detect or forced base, BigInt, negatives. |
+| Text Stats | form | Chars (code points), no-spaces, words, lines, sentences, UTF-8 bytes. |
+| HTTP Status Codes | list | Search by code or name; class-colored, detail pane, MDN links. |
 
-All logic is local — no network, no auth. Runs on Node (uses `crypto`, `Buffer`).
+All logic is local — no network, no auth (HTTP Status only links out to MDN). Runs on Node (uses `crypto`, `Buffer`).
 
 ## Develop
 
