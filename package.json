@@ -68,6 +68,13 @@
       "description": "Decode JWT header and payload (no verify).",
       "mode": "view",
       "keywords": ["jwt", "token", "decode", "jose", "bearer"]
+    },
+    {
+      "name": "lorem",
+      "title": "Lorem Ipsum",
+      "description": "Generate placeholder text by paragraphs, sentences, or words.",
+      "mode": "view",
+      "keywords": ["lorem", "ipsum", "placeholder", "filler", "dummy", "text"]
     }
   ]
 }

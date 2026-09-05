@@ -46,6 +46,11 @@ declare namespace Preferences {
 	export type JwtDecode = ExtensionPreferences & {
 		
 	}
+
+	/** Command: Lorem Ipsum */
+	export type Lorem = ExtensionPreferences & {
+		
+	}
 }
 
 declare namespace Arguments {
@@ -81,6 +86,11 @@ declare namespace Arguments {
 
 	/** Command: Decode JWT */
 	export type JwtDecode = {
+		
+	}
+
+	/** Command: Lorem Ipsum */
+	export type Lorem = {
 		
 	}
 }
