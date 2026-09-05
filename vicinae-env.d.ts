@@ -61,6 +61,11 @@ declare namespace Preferences {
 	export type Slugify = ExtensionPreferences & {
 		
 	}
+
+	/** Command: Number Base Converter */
+	export type HexDecBin = ExtensionPreferences & {
+		
+	}
 }
 
 declare namespace Arguments {
@@ -111,6 +116,11 @@ declare namespace Arguments {
 
 	/** Command: Slugify */
 	export type Slugify = {
+		
+	}
+
+	/** Command: Number Base Converter */
+	export type HexDecBin = {
 		
 	}
 }
